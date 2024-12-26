@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> For Luise </title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://frutigeraeroarchive.org/images/wallpapers/materialdictionary186/HS027_350A.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .main-container {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .side-container {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            justify-content: flex-start; /* Align items at the start of the container */
+            width: 20%;
+            text-align: center;
+            flex-wrap: nowrap; /* Ensure items don’t wrap */
+        }
+        .center-container {
+
+            top: 0;
+            text-align: center;
+            width: 70%;
+            position: absolute;
+            transform: translateX(15%);
+        }
+    </style>
+</head>
+<body>
+    <div class="center-container" style="max-width:150%; width: 100px; height:100px; position:relative; bottom: 100px; left:0px;">
+        <div id="winamp-container"></div>
+        <script>
+    const Winamp = window.Webamp;
+    // All configuration options are optional.
+    const webamp = new Webamp({
+        // Optional.
+        initialTracks: [
+            { metaData: {artist: "18 Carat Affair", title: "More Wishes",},url: "music/18 Carat Affair - More Wishes.mp3",},
+            {metaData: {artist: "Night Tapes", title: "drifting",},url: "music/drifting.mp3",},
+            {metaData: {artist: "Part Time",title: "I Wanna Take You Out",},url: "music/Part Time - I Wanna Take You Out.mp3",},
+            {metaData: {artist: "",title: "",},url: "music/The Wake - Sail Through.mp3",},
+            {metaData: {artist: "",title: "",},url: "music/Connan Mockasin - Do I Make You Feel Shy？.mp3",},
+            {metaData: {artist: "Molly Nilsson",title: "Excalibur",},url: "music/Molly Nilsson - ＂Excalibur＂.mp3",},
+            {metaData: {artist: "",title: "",},url: "music/Blue Hawaii - I Felt Love.mp3",},
+          ],
+            initialSkin: {
+            url: "pictures/LoVe_AmP.wsz"
+        },
+        },
+    );
+    webamp.renderWhenReady(document.getElementById('winamp-container'));
+    </script>
+    </div>
+    <div class="main-container">
+        <div class="side-container" style="position:relative; top: 0px; left: 1px; display: flex; flex-direction: column; gap: 10px;">
+            <img src= "https://web.archive.org/web/20090821162207/http://geocities.com/Heartland/Village/1914/move_flower.gif"style="width: 30%; align-self:flex-start">
+            <img src="gifs/flower1.gif" style="max-width: 40%;  align-self:flex-start;">
+            <img src="https://web.archive.org/web/20091026125414/http://geocities.com/crystal_ballball/moveflower1.gif" style="max-width:30%; align-self:center" >
+            <img src="gifs/flower2.gif"style="max-width: 40%;">      
+            <img src="gifs/love_003.gif"style="max-width: 60%; align-self:flex-end; margin-right:30%">
+    
+            <img src="gifs/flower_angel.gif"style="width: 80%;">
+            
+        </div>
+        <div class="side-container" style="position:relative; top: 10px; right: 100px;display: flex; flex-direction: column; gap: 10px;">
+            <img src="gifs/kittymail100.gif", style="max-width:50%">
+            <img src="https://web.archive.org/web/20091021094038/http://www.geocities.com/assoc_ietl/flower06.gif" style="max-width: 30%; align-self:flex-end; margin-right:30%">
+            <img src="https://web.archive.org/web/20090830171346/http://geocities.com/Tokyo/Market/8132/flower2.gif" style="max-width:20% ;">
+            <img src="https://web.archive.org/web/20091026215015/http://geocities.com/tongameth/gif/flower6.gif" style="max-width:60%; align-self:flex-end; margin-right:49%">
+            <img src="https://web.archive.org/web/20091026133718/http://www.geocities.com/lgal3824/eastflowerani.gif">
+        </div>
+        <div class="center-container" style="top: 15px;">
+            <a href="https://websetsbylynn.neocities.org/"><img src="https://websetsbylynn.neocities.org/glitter-text-generator/glitter-text/set25/m.gif" alt="Make your own custom glitters words at Websets by Lynn!" border="0" /></a><a href="https://websetsbylynn.neocities.org/"><img src="https://websetsbylynn.neocities.org/glitter-text-generator/glitter-text/set25/i.gif" alt="Make your own custom glitters words at Websets by Lynn!" border="0" /></a><a href="https://websetsbylynn.neocities.org/"><img src="https://websetsbylynn.neocities.org/glitter-text-generator/glitter-text/set25/x.gif" alt="Make your own custom glitters words at Websets by Lynn!" border="0" /></a><a href="https://websetsbylynn.neocities.org/"><img src="https://websetsbylynn.neocities.org/glitter-text-generator/glitter-text/set25/t.gif" alt="Make your own custom glitters words at Websets by Lynn!" border="0" /></a><a href="https://websetsbylynn.neocities.org/"><img src="https://websetsbylynn.neocities.org/glitter-text-generator/glitter-text/set25/a.gif" alt="Make your own custom glitters words at Websets by Lynn!" border="0" /></a><a href="https://websetsbylynn.neocities.org/"><img src="https://websetsbylynn.neocities.org/glitter-text-generator/glitter-text/set25/p.gif" alt="Make your own custom glitters words at Websets by Lynn!" border="0" /></a><a href="https://websetsbylynn.neocities.org/"><img src="https://websetsbylynn.neocities.org/glitter-text-generator/glitter-text/set25/e.gif" alt="Make your own custom glitters words at Websets by Lynn!" border="0" /></a><a href="https://websetsbylynn.neocities.org/"><img src="https://websetsbylynn.neocities.org/glitter-text-generator/glitter-text/space/space.gif" alt="Make your own custom glitters words at Websets by Lynn!" width="20" border="0" /></a>
+            <p style="font: size 300px;font-family:'Courier New';"><b><br><br>Hey Maus <br> <br> hab dir ein paar süße Songs gesammelt! <br><br> </b>
+            </p>
+        </div>
+        <div class="side-container" style="position: relative; top: 50px; left: 250px; display: flex; flex-direction:column; gap: 10px; justify-content:space-between">
+            <img src="gifs/hearts.gif"style="max-width: 150%;  align-self: flex-end; margin-right:100%">
+            <img src="https://web.archive.org/web/20091022045514/http://www.geocities.com/iloveyouhearty/pictures/bonfire/pinkflower.gif" style="width: 30%; align-self: flex-end; margin-right:70%">
+            <img src="https://web.archive.org/web/20090803085258/http://www.geocities.com/illbetheonefornick/whiteflower.gif" style="max-width: 50%; align-self: flex-end; margin-right:50%">
+            <img src="gifs/love_flash.gif"style="max-width: 60%;align-self: flex-end; margin-right:70%;">
+        </div>
+        <div class="side-container">
+            <img src="gifs/love.gif"style="max-width: 30%; float: left;">
+            <img src="gifs/flower2.gif"style="max-width: 30%;align-self: flex-end; margin-right:30%">
+            <img src="gifs/flower1.gif  "style="max-width: 20%;">
+            <img src="">
+            <img src="">
+            <img src="">
+            <img src="gifs/love_003.gif"style="max-width: 60%;align-self: flex-end; margin-right:50%">
+            <img src="https://web.archive.org/web/20090810031552/http://www.geocities.com/lilmrhardcore/Flowerandlove.gif"style="max-width: 100%;">
+        </div>
+    </div>
+</body>
+</html>
